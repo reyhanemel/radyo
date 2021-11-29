@@ -1,0 +1,106 @@
+.container{
+    align-items: center;
+    justify-self: center;
+}
+
+.container .row{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border-radius: 10px;
+}
+
+.container .row .col{
+    margin: 3px;
+}
+
+.banner{
+    background-color: rgb(18, 18, 194);
+    color: antiquewhite;
+    font-size:50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.player{
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    background-color:rgb(22, 22, 22);
+    font-size:50px;
+    text-align: center;
+    padding:20px 20px;
+    margin: 10px 10px;
+}
+
+marquee{
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.card img{
+    border-radius: 10px;
+}
+
+.card a{
+    text-decoration: none;
+    color: darkcyan;
+    font-weight: bold;
+
+}
+footer{
+    color:antiquewhite;
+    padding-top: 5px;
+}
+
+footer .card{
+    background-color: transparent;
+    padding: 5px 10px;
+}
+
+.ikon-renk{
+    color:antiquewhite;
+    padding-right: 10px;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+hr{
+    color: antiquewhite;
+}
+
+.adres{
+    font-size: 15px;
+}
+
+.copyright .alert{
+    text-align: center;
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+}
