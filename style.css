@@ -45,6 +45,7 @@ marquee{
 
 .card{
     border-radius: 10px;
+    height: auto;
 }
 
 .card img{
